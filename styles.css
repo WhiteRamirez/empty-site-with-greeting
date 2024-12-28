@@ -1,0 +1,38 @@
+.namee {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+ border-radius: 200px;
+ padding: 10px;
+ font-size: 55px;
+ text-align: center;
+ font-weight: 700;
+ letter-spacing: 2px;
+ animation-name: nameee;
+ animation-duration: 3s;
+ height: 240px;
+margin: 45px 220px 0 220px;
+padding-top: 150px;
+box-shadow: 10px 10px 135px black;
+text-shadow: 1px 1px 1px gray;
+} 
+@keyframes nameee {
+    from {
+        text-shadow: 1px 1px 1px gray;
+        padding-top: 10px;
+        margin: 15px 0 10px 0;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 25px;
+        box-shadow: 1px 1px 5px black;
+    }
+    to {
+        text-shadow: 1px 1px 1px gray;
+        box-shadow: 10px 10px 135px black;
+        padding-top: 150px;
+        margin: 45px 220px 0 220px;
+        height: 240px;
+        border-radius: 200px;
+        font-size: 55px;
+    }
+}
